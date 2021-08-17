@@ -1,0 +1,19 @@
+NAME[0]="prasanna"
+NAME[1]="rahul"
+NAME[2]="varma"
+echo -n "enter theperson name: "
+read person
+echo -n "person place: "
+
+case $person in
+
+prasanna)
+echo -n "canada"
+;;
+rahul)
+echo -n "usa"
+;;
+varma)
+echo -n "india"
+;;
+esac
